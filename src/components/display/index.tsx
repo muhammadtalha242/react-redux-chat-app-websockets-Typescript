@@ -1,8 +1,10 @@
 import React from 'react'
 
+import { DisplayMainContainer } from './container'
+
 const Display = () => {
   return (
-    <div>Display</div>
+    <DisplayMainContainer>Display</DisplayMainContainer>
   )
 }
 
