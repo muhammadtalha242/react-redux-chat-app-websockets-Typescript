@@ -10,7 +10,7 @@ interface IInputFieldProps {
 const InputField = ({ message, setValues }: IInputFieldProps) => {
   return (
     <div>
-      <TextArea value={message} bordered={false} onChange={setValues} />
+      <TextArea value={message} bordered={false} onChange={setValues}  />
     </div>
   );
 };
